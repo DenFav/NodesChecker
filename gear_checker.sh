@@ -11,6 +11,3 @@ echo "Check gear node❌"
 fi
 
 shopt -u nocasematch
-
-
-1
