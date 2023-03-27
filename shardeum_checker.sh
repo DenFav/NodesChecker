@@ -8,7 +8,9 @@ get_status() {
 shardeum_status=$(get_status)
 
 if [[ $shardeum_status =~ "active" ]]; then
-echo "Shardeum is ok✅"
+echo "Shardeum is active✅"
+elif [[ $shardeum_status =~ "standby" ]]; then
+echo "Shardeum is standby✅"
  else 
 echo "Check Shardeum node❌" 
 fi
