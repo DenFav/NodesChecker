@@ -1,3 +1,5 @@
+echo $1
+
 bash <(curl -s https://raw.githubusercontent.com/DenFav/NodesChecker/master/gear_checker.sh)
 bash <(curl -s https://raw.githubusercontent.com/DenFav/NodesChecker/main/shardeum_checker.sh)
 bash <(curl -s https://raw.githubusercontent.com/DenFav/NodesChecker/main/taiko_checker.sh)
